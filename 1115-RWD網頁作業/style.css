@@ -1,0 +1,46 @@
+*{}
+body{}
+.header{}
+.header img{}
+.header ul{}
+.header li{}
+.header a{}
+.header a:hover{}
+.header a:visited{}
+
+.F1{}
+.F1 h1{}
+.F1 h2{}
+.F1 p{}
+.F1 ul{}
+.F1 li{}
+.F1 a{}
+.F1 a:hover{}
+
+.F2{}
+.F2 div{}
+.F2 div h1{}
+.F2 div h2{}
+.F2 div p{}
+.F2 div img{}
+
+.F3{}
+.F3 h1{}
+.F3 p{}
+.F3 ul{}
+.F3 li{}
+.F3 a{}
+.F3 a:hover{}
+.F3 a:visited{}
+
+.F4{}
+.F4 div{}
+.F4 div img{}
+.F4 div h1{}
+.F4 div p{}
+.F4 div ul{}
+.F4 div ul li{}
+.F4 div ul li a{}
+
+
+
