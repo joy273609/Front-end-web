@@ -98,6 +98,10 @@ body{
 .F2 p{
     color: white;
 }
+.F2 li a{
+    display: block;
+}
+.F2 li a:hover{}
 
 .F2 img{
     padding-top: 35px;
@@ -160,14 +164,124 @@ body{
 }
 .F3 a:visited{}
 
-.F4{}
-.F4 div{}
-.F4 div img{}
-.F4 div h1{}
-.F4 div p{}
-.F4 div ul{}
-.F4 div ul li{}
-.F4 div ul li a{}
+.F4{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.F4 div{
+    width: 500px;
+    background-color: #ede9e9;
+}
 
 
 
+.F4 .inside1{
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight:900;
+}
+.F4 .inside1 p{
+    color: black;
+}
+.F4 .inside2{
+    padding-top: 100px;
+}
+
+.F4 .inside3{
+    padding-top: 100px;
+
+}
+
+.F4 div h1{
+    padding: 5px;
+}
+.F4 div p{
+    color: gray;
+}
+.F4 div ul{
+    padding: 20px;
+}
+
+.F4 a{
+    text-decoration: underline 4px;text-underline-offset: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:gray ;
+    letter-spacing: 3px;
+}
+
+
+.F5{
+    width: 1920px;
+    height: 900px;
+    background-image: url(./images/handbg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.F5 div{
+    box-sizing: border-box;
+    margin: 20px;
+    width: 360px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border: rgb(189, 184, 184) 3px solid;
+
+}
+.F5 div h1{
+    letter-spacing: 3px;
+    margin-bottom:10px ;
+}
+.F5 .inside1{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.F5 .inside2{
+    position: absolute;
+    top: 350px;
+    left: 750px;
+}
+.F5 .inside3{
+    position: absolute;
+    top: 350px;
+    left: 1150px;
+}
+
+.F5 p{
+    padding: 3px;
+    font-style: italic;
+    color: gray;
+}
+
+.F5 .bottom{
+    position: absolute;
+    top: 800px;
+    left: 850px;
+    font-size: 25px;
+}
+.F5 .bottom a{
+    color: rgb(127, 200, 255);
+    text-decoration: none;
+}
+
+.Footer{
+    background-color: #373636;
+    clear: both;
+    text-align: center;
+    padding: 60px;
+    color: white;
+}
+.Footer p{
+    margin: 30px;
+    font-size: large;
+}
+.Footer p a{
+    color: rgb(127, 200, 255);
+}
