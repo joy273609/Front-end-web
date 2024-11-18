@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 10px 40px;
+    align-items: center;
+}
+.header ul{}
+.header ul li{
+    float: left;
+    padding-left: 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+}
+
+.banner{
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.banner div{
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+@font-face {
+    font-family: Alor;
+    src: url(./Alor\ Condensed\ Normal.ttf);
+}
+
+.banner h1{
+    font-family:Alor ;
+    font-size: 120px;
+    letter-spacing: 10px;
+}
+.banner h2{
+    font-family: Alor;
+    font-size: 120px;
+    letter-spacing: 10px;
+    padding-bottom: 40px;
+}
+.banner p{
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    font-size: 25px;
+}
+.banner ul{
+    position: absolute;
+    top: 450px;
+    left: 120px;
+}
+.banner ul li{
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    float: left;
+    background-color: white;
+    color: gray;
+    padding: 10px 20px;
+    padding-right: 0;
+}
+.banner ul li a{
+    background: #1f1e1e;
+    color: white;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+.banner ul li a:hover{}
+
+.F2{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    color: white;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+}
+.F2 div{
+    padding: 20px 60px 20px 20px;
+}
+.F2 .inside1{
+    background-color: rgb(249, 99, 45);
+}
+.F2 .inside2{
+    background-color: #e23535;
+}
+.F2 .inside3{
+    background-color: #000000;
+}
+.F2 .inside4{
+    background-color: #454242;
+}
+
+.F2 div h1{
+    font-family: Oswald;
+    padding-bottom: 15px;
+}
+.F2 div h2{
+    font-family: Oswald;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.F2 div p{
+    padding-bottom: 4px;
+    font-family:Open Sans
+}
+.F2 div li{
+    padding: 30px 0;
+    
+}
+.F2 div li a{}
+.F2 div li a:hover{}
+
+.F3{}
+
+
+
