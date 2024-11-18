@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    width: 1920px;
+
 }
 
 .header{
@@ -17,6 +17,8 @@ body{
 .header img{
     margin-left: 100px;
     padding: 15px;
+    width: 100%;
+    height: auto;
 }
 .header ul{
     margin-right: 100px;
@@ -35,18 +37,22 @@ body{
 .header a:hover{}
 .header a:visited{}
 
-.F1{
+.banner{
     background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     height: 750px;
     position: relative;
 }
 
-.F1 div{
+.banner div{
     position: absolute;
     top: 100px;
     left: 150px;
 }
-.F1 div h1{
+.banner div h1{
     color: white;
     font-size: 130px;
     font-family:Alor;
@@ -58,23 +64,25 @@ body{
     src: url(./Alor\ Condensed\ Normal.ttf);
     }
 
-.F1 div h2{
+.banner div h2{
     color: white;
     font-size: 130px;
     font-family: Alor;
     letter-spacing: 10px;
+    padding-bottom: 10px;
 }
-.F1 div p{
+.banner div p{
     color: white;
     font-size: 25px;
     font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
-.F1 div ul{
+.banner div ul{
     position: absolute;
     top: 500px;
     left: 100px;
+    background-color: aqua;
 }
-.F1 div li{
+.banner div li{
     float: left;
     background-color: white;
     padding: 10px;
@@ -82,7 +90,7 @@ body{
     padding-right: 0;
     font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
-.F1 div li a{
+.banner div li a{
     background-color: #3c3b3b;
     color: white;
     padding: 10px 25px;
@@ -90,7 +98,7 @@ body{
     text-decoration: none;
     letter-spacing: 3px;
 }
-.F1 div li a:hover{}
+.banner div li a:hover{}
 
 .F2{
     display: flex;
@@ -98,6 +106,7 @@ body{
     padding: 70px 0;
     font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
+
 
 .F2 h1{
     font-size: 40px;
@@ -314,4 +323,263 @@ body{
 }
 .Footer p a{
     color: rgb(127, 200, 255);
+}
+
+
+/*======平板css======*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+
+    .F2 {
+        display: flex;
+        justify-content: center;
+        padding: 70px 0;
+        font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    }
+
+
+    .F2 h1 {
+        font-size: 40px;
+        color: white;
+        padding-bottom: 3px;
+        font-family: Oswald;
+    }
+
+    .F2 h2 {
+        color: white;
+        padding-bottom: 8px;
+        font-family: Oswald;
+    }
+
+    .F2 p {
+        color: white;
+    }
+
+    .F2 li a {
+        display: block;
+    }
+
+    .F2 li a:hover {}
+
+    .F2 img {
+        padding-top: 35px;
+    }
+
+
+    .F2 .inside1 {
+        background-color: rgb(255, 98, 0);
+        padding: 30px;
+    }
+
+    .F2 .inside2 {
+        background-color: rgb(255, 47, 0);
+        padding: 30px;
+    }
+
+    .F2 .inside3 {
+        background-color: rgb(50, 49, 49);
+        padding: 30px;
+    }
+
+    .F2 .inside4 {
+        background-color: rgb(101, 101, 101);
+        padding: 30px;
+    }
+
+
+    .F3 {
+        background-color: #ede9e9;
+        justify-items: center;
+        padding: 70px 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    }
+
+    .F3 h1 {
+        color: rgb(255, 98, 0);
+        font-size: 60px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        font-family: Oswald;
+    }
+
+    .F3 p {
+        color: gray;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .F3 ul {}
+
+    .F3 li {}
+
+    .F3 a {
+        padding: 15px 40px;
+        background: linear-gradient(to right, rgb(249, 123, 45), rgb(255, 47, 0));
+        margin-top: 30px;
+        color: white;
+        text-decoration: none;
+        letter-spacing: 3px;
+        display: block;
+    }
+
+    .F3 a:hover {
+        font-size: larger;
+    }
+
+    .F3 a:visited {}
+
+    .F4 {
+        margin: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    }
+
+    .F4 div {
+        width: 500px;
+        background-color: #ede9e9;
+    }
+
+    .F4 .inside1 {
+        padding-top: 150px;
+        font-size: 35px;
+        font-weight: 900;
+    }
+
+    .F4 .inside1 p {
+        color: black;
+    }
+
+    .F4 .inside2 {
+        padding-top: 100px;
+    }
+
+    .F4 .inside2 p {
+        padding-bottom: 10px;
+    }
+
+    .F4 .inside3 {
+        padding-top: 100px;
+    }
+
+    .F4 .inside3 p {
+        padding-bottom: 10px;
+    }
+
+    .F4 div h1 {
+        padding: 18px;
+    }
+
+    .F4 div p {
+        color: gray;
+    }
+
+    .F4 div ul {
+        padding: 40px;
+    }
+
+    .F4 a {
+        text-decoration: underline 4px;
+        text-underline-offset: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: gray;
+        letter-spacing: 3px;
+    }
+
+
+    .F5 {
+        width: 1920px;
+        height: 900px;
+        background-image: url(./images/handbg.jpg);
+        background-repeat: no-repeat;
+        position: relative;
+        font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    }
+
+    .F5 div {
+        box-sizing: border-box;
+        margin: 20px;
+        width: 360px;
+        height: 380px;
+        background-color: white;
+        text-align: center;
+        padding: 30px;
+        border: rgb(189, 184, 184) 3px solid;
+
+    }
+
+    .F5 img {
+        padding-bottom: 10px;
+    }
+
+    .F5 div h1 {
+        letter-spacing: 3px;
+        margin-bottom: 10px;
+        color: rgb(46, 45, 45);
+    }
+
+    .F5 .inside1 {
+        position: absolute;
+        top: 350px;
+        left: 350px;
+    }
+
+    .F5 .inside2 {
+        position: absolute;
+        top: 350px;
+        left: 750px;
+    }
+
+    .F5 .inside3 {
+        position: absolute;
+        top: 350px;
+        left: 1150px;
+    }
+
+    .F5 p {
+        padding: 3px;
+        font-style: italic;
+        color: gray;
+    }
+
+    .F5 .bottom {
+        position: absolute;
+        top: 800px;
+        left: 850px;
+        font-size: 25px;
+    }
+
+    .F5 .bottom a {
+        color: rgb(127, 200, 255);
+        text-decoration: none;
+    }
+
+    .Footer {
+        background-color: #373636;
+        clear: both;
+        text-align: center;
+        padding: 60px;
+        color: white;
+        font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+    }
+
+    .Footer p {
+        margin: 30px;
+        font-size: large;
+    }
+
+    .Footer p a {
+        color: rgb(127, 200, 255);
+    }
+    
+}
+
+
+/*======手機css======*/
+@media screen and (max-width:768px) {
+
+
 }
