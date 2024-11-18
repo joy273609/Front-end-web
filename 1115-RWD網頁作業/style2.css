@@ -58,7 +58,7 @@ body {
     font-family: Alor;
     font-size: 120px;
     letter-spacing: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 .banner p{
     font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
@@ -66,7 +66,7 @@ body {
 }
 .banner ul{
     position: absolute;
-    top: 450px;
+    top: 470px;
     left: 120px;
 }
 .banner ul li{
@@ -97,10 +97,10 @@ body {
     padding: 20px 60px 20px 20px;
 }
 .F2 .inside1{
-    background-color: rgb(249, 99, 45);
+    background-color: rgb(255, 98, 0);
 }
 .F2 .inside2{
-    background-color: #e23535;
+    background-color: #fa3232;
 }
 .F2 .inside3{
     background-color: #000000;
@@ -129,7 +129,129 @@ body {
 .F2 div li a{}
 .F2 div li a:hover{}
 
-.F3{}
+.F3{
+    text-align: center;
+    background-color: #e7e6e6;
+    padding: 50px;
+    margin-bottom: 60px;
+}
+.F3 h1{
+    font-family: Oswald;
+    color: rgb(255, 98, 0) ;
+    font-size: 50px;
+    padding-bottom: 30px;
+    
+}
+.F3 p{
+    font-family:Open Sans;
+    color: rgb(104, 104, 104);
+}
+.F3 ul{
+    margin-top: 35px;
+    display: block;
 
+}
+.F3 ul li{
+}
+.F3 ul li a{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right,rgb(249, 123, 45), rgb(255, 47, 0));
+    padding: 10px 35px;
+}
 
+.F3 ul li a:hover{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.F4{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.F4 div{
+    background-color: #e7e6e6 ;
+    width: 30%;
+}
+
+.F4 .photo img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+.F4 .inside1{
+    padding-top: 80px;
+}
+.F4 .inside1 p{
+    font-weight: 900;
+    color:black;
+    font-size: 25px;
+}
+
+.F4 p{
+    color: rgb(104, 104, 104);
+    font-family:Open Sans;
+    padding-bottom: 10px;
+}
+.F4 ul{
+    padding: 25px 0;
+}
+.F4 ul li{}
+
+.F4 ul li a{
+    text-decoration: underline 3px;text-underline-offset: 8px;
+    color: rgb(104, 104, 104);
+    font-weight: bold;
+}
+
+.F4 .inside2{
+    padding-top: 10px;
+}
+.F4 h1{
+    font-size: 25px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.F4 .inside3{
+    padding-top: 10px;
+}
+
+.F5{
+    background-image: url(./images/handbg.jpg);
+    width: 100%;    
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: auto;
+}
+
+.F5 div{
+    background-color: white;
+    border: #706f6f solid;
+    width:25%;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.F5 h1{
+    font-size: 20px;
+    color: #706f6f;
+    padding: 10px 0;
+    letter-spacing: 4px;
+}
+.F5 p{
+    color: #706f6f;
+    font-style: italic;
+    padding-bottom: 3px;
+}
+
+.F5 .inside1{ }
 
