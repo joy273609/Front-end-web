@@ -49,10 +49,20 @@ body{
 .F1 div h1{
     color: white;
     font-size: 130px;
+    font-family:Alor;
+    letter-spacing: 10px;
 }
+
+@font-face {
+    font-family: Alor;
+    src: url(./Alor\ Condensed\ Normal.ttf);
+    }
+
 .F1 div h2{
     color: white;
     font-size: 130px;
+    font-family: Alor;
+    letter-spacing: 10px;
 }
 .F1 div p{
     color: white;
@@ -249,9 +259,13 @@ body{
     border: rgb(189, 184, 184) 3px solid;
 
 }
+.F5 img{
+    padding-bottom: 10px;
+}
 .F5 div h1{
     letter-spacing: 3px;
     margin-bottom:10px ;
+    color: rgb(46, 45, 45);
 }
 .F5 .inside1{
     position: absolute;
