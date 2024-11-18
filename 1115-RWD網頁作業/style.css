@@ -29,6 +29,8 @@ body{
     color: gray;
     text-decoration: none;
     font-size: 20px;
+    font-family: Arial, Helvetica,'微軟正黑體' ,sans-serif;
+    font-weight: 500;
 }
 .header a:hover{}
 .header a:visited{}
@@ -54,7 +56,8 @@ body{
 }
 .F1 div p{
     color: white;
-    font-size: 25px;    
+    font-size: 25px;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 .F1 div ul{
     position: absolute;
@@ -67,6 +70,7 @@ body{
     padding: 10px;
     color: gray;
     padding-right: 0;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 .F1 div li a{
     background-color: #3c3b3b;
@@ -81,13 +85,15 @@ body{
 .F2{
     display: flex;
     justify-content: center;
-    padding: 70px 0;    
+    padding: 70px 0;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 
 .F2 h1{
     font-size: 40px;
     color: white;
     padding-bottom: 3px;
+
 }
 
 .F2 h2{
@@ -134,6 +140,7 @@ body{
     justify-items: center;
     padding: 70px 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 .F3 h1{
     color: rgb(255, 98, 0) ;
@@ -170,6 +177,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 
 .F4 div{
@@ -177,33 +185,37 @@ body{
     background-color: #ede9e9;
 }
 
-
-
 .F4 .inside1{
     padding-top: 150px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight:900;
 }
 .F4 .inside1 p{
     color: black;
 }
-.F4 .inside2{
+.F4 .inside2 {
     padding-top: 100px;
+}
+.F4 .inside2 p{
+    padding-bottom: 10px;
 }
 
 .F4 .inside3{
     padding-top: 100px;
+}
 
+.F4 .inside3 p {
+    padding-bottom: 10px;
 }
 
 .F4 div h1{
-    padding: 5px;
+    padding: 18px;
 }
 .F4 div p{
     color: gray;
 }
 .F4 div ul{
-    padding: 20px;
+    padding: 40px;
 }
 
 .F4 a{
@@ -221,6 +233,7 @@ body{
     background-image: url(./images/handbg.jpg);
     background-repeat: no-repeat;
     position: relative;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 
 .F5 div{
@@ -277,6 +290,7 @@ body{
     text-align: center;
     padding: 60px;
     color: white;
+    font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
 .Footer p{
     margin: 30px;
