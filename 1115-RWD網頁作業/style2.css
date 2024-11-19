@@ -95,6 +95,7 @@ body {
 }
 .F2 div{
     padding: 20px 60px 20px 20px;
+    width: 24%;
 }
 .F2 .inside1{
     background-color: rgb(255, 98, 0);
@@ -123,7 +124,7 @@ body {
     font-family:Open Sans
 }
 .F2 div li{
-    padding: 30px 0;
+    padding: 20px 0;
     
 }
 .F2 div li a{}
@@ -229,29 +230,113 @@ body {
     width: 100%;    
     background-repeat: no-repeat;
     background-size:contain;
-    height: auto;
+    height: 600px;
+    box-sizing: border-box;
 }
 
-.F5 div{
+.F5 .inbox div{
     background-color: white;
     border: #706f6f solid;
     width:25%;
     text-align: center;
     padding: 20px 0;
     box-sizing: border-box;
+    
 }
 
-.F5 h1{
+.F5 .inbox h1{
     font-size: 20px;
     color: #706f6f;
     padding: 10px 0;
     letter-spacing: 4px;
 }
-.F5 p{
+.F5 .inbox p{
     color: #706f6f;
     font-style: italic;
     padding-bottom: 3px;
 }
 
+.F5 .inbox{
+    display: flex;
+    justify-content: center;
+    padding-top: 280px;
+}
 .F5 .inside1{ }
 
+.F5 .bottom{
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0;
+    font-family: Delius Swash Caps;
+}
+.F5 .bottom a{
+    text-decoration: none;
+    color: rgb(116, 174, 221);
+    font-family: Delius Swash Caps;
+}
+.Footer{
+    background-color: #444343;
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family:Open Sans;
+
+}
+.Footer h1{
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+}
+.Footer h2{    
+    font-size: 15px;
+    padding-bottom: 35px;
+    font-weight: normal;
+
+}
+.Footer p{
+    font-size: 15px;
+}
+.Footer p a{
+    color: rgb(116, 174, 221);
+    font-size: 15px;
+
+}
+
+/*======平板css======*/
+@media screen and (max-width:1200px) and (min-width:769px) {
+    
+    .F2{
+        flex-wrap: wrap;
+    }
+    .F2 div{
+        width: 35%;
+    }
+    
+    .F4{
+        flex-wrap: wrap;
+    }
+    
+    .F4 div{
+        width: 40%;
+    }
+}
+/*======手機css======*/
+@media screen and (max-width:768px) {
+  
+    .F2{
+        flex-wrap: wrap;
+    }
+    .F2 div{
+        width:80%;
+    }
+    
+    .F4{
+        flex-wrap: wrap;
+    }
+    
+    .F4 div{
+        width: 90%;
+    }
+}
