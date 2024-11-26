@@ -255,7 +255,10 @@ body {
     font-style: italic;
     padding-bottom: 3px;
 }
-
+.F5 .inbox img{
+    max-width: 100%;
+    height: auto;
+}
 .F5 .inbox{
     display: flex;
     justify-content: center;
